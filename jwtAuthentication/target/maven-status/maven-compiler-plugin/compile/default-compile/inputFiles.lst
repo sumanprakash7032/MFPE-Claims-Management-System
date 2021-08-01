@@ -1,0 +1,15 @@
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\Repository\UserRepository.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\service\JwtUtil.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\exception\Error.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\SecurityConfigurer.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\exception\BadCredentialException.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\service\MyUserDetailsService.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\exception\LoginException.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\service\ValidateService.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\JwtAuthenticationApplication.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\model\AuthenticationResponse.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\exception\ControllerAdvice.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\model\AuthenticationRequest.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\controller\AuthenticationController.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\filter\JwtRequestFilter.java
+C:\workspaces\MFPE workspace\Claims Management System\authentication-ms (1)\jwtAuthentication\src\main\java\com\cognizant\authorizationService\model\MyUser.java
