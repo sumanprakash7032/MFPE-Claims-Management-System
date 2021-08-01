@@ -1,0 +1,22 @@
+version: 0.2
+phases:
+  install:
+     runtime-versions:
+      java: corretto11
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Build started on `date`
+      - mvn install
+      - mvn compile
+      - mvn package
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - mv target/*.jar policy-app.jar
+      - dir
+artifacts:
+  files:
+    - policy-app.jar

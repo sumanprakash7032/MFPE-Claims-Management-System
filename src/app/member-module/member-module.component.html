@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  <title>Claim Management System</title>
+</head>
+ 
+<body>
+  <!--Nav bar-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+    
+    <div class="collapse navbar-collapse" id="navbarText" >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item  active">
+          <a class="nav1 " href="/memberModule">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav1" href="#">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav1" href="/contactModule">Contact Us</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav1" href="#" (click)="logout()">Hello,<b>{{key1}}</b></a>
+        </li>
+        
+      
+      </ul>  
+    </div>
+
+    <a class="navbar-brand justify-content-center" href="#">Claims Management System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  
+  <!--body-->
+ 
+  <div class="row">
+    <div class="col-md-3" >
+      
+      
+    </div>
+    <div class="col-md-6 ">
+      <div class="text-center clr mt-2">
+        <b>Please select the below Service of Your Choice</b>
+      </div>
+    
+     <div class="card-group">
+        <div class="card">
+          <img class="card-img-top mt-2" src="assets/image/10.jpg" alt="Card image cap">
+          <div class="card-body mt-1">
+            <h5 class="card-title text-center">View Bill</h5>
+            <p class="card-text text-center" >Here you can view your Bill.</p>
+            <div class="text-center">
+            <a accesskey="v" href="/memberdetailsModule" class="btn btn-primary btn-sm active justify-content-center clr1" role="button" aria-pressed="true"><b><u>P</u></b>roceed to View Bills</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top  " src="assets/image/7.jpg" alt="Card image cap">
+          <div class="card-body mt-5">
+            <h5 class="card-title text-center">Claim Status</h5>
+            <p class="card-text text-center">Her you can check status of your Claim</p>
+            <div class="text-center">
+            <a accesskey="c" href="/claimInput" class="btn btn-primary btn-sm active justify-content-center clr1" role="button" aria-pressed="true"><b><u>P</u></b>roceed to Claim Status</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top mt-0" src="assets/image/8.jpg" alt="Card image cap">
+          <div class="card-body mt-5">
+            <h5 class="card-title text-center">Submit Claim</h5>
+            <p class="card-text text-center">Here you can submit your Claim.</p>
+            <div class="text-center">
+            <a accesskey="s" href="/submitInput" class="btn btn-primary btn-sm active justify-content-center clr1" role="button" aria-pressed="true"><b><u>P</u></b>roceed to Submit Claim</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-md-3">
+    
+    </div>
+  </div>
+  <!--footer-->
+  <div class="bg-blue py-4 footer ">
+    <div class="row "> <small class="fottext">Copyright &copy; 2021. All rights reserved.</small>
+        <div class="social-contact ml-4 ml-sm-auto">
+          <span class="fa fa-facebook mr-4 text-sm"></span>
+          <span class="fa fa-google-plus mr-4 text-sm"></span>
+          <span class="fa fa-linkedin mr-4 text-sm"></span> 
+          <span class="fa fa-twitter mr-4 mr-sm-5 text-sm"></span> 
+      </div>
+    </div>
+</div>
+  <!--footer-->
+</body>
+
+</html>

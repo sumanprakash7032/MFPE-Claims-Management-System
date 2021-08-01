@@ -1,0 +1,8 @@
+com\cognizant\authorizationService\model\AuthenticationResponseTest.class
+com\cognizant\authorizationService\controller\ControllerTest.class
+com\cognizant\authorizationService\model\AuthenticationRequestTest.class
+com\cognizant\authorizationService\JwtAuthenticationApplicationTests.class
+com\cognizant\authorizationService\util\JwtUtilTest.class
+com\cognizant\authorizationService\filter\JwtRequestFilterTest.class
+com\cognizant\authorizationService\model\MyUserTest.class
+com\cognizant\authorizationService\exception\Exception.class

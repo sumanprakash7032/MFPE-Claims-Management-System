@@ -1,0 +1,1 @@
+insert into claim values (1,'Pending Action', 'claim has been submitted! Please check after few days for confirmation',1,2,202,1,100000,40000);

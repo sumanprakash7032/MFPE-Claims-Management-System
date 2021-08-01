@@ -1,0 +1,28 @@
+version: 0.2
+phases:
+<<<<<<< HEAD
+  install:
+     runtime-versions:
+      java: corretto11
+=======
+>>>>>>> 22972d5e2f7905b0265d2eb753b32351dd70392d
+  pre_build:
+    commands:
+      - mvn clean install
+      - echo Logging in to Amazon ECR...
+      - aws --version
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Build started on `date`
+      - mvn install
+      - mvn compile
+      - mvn package
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - mv target/*.jar member-app.jar
+      - dir
+artifacts:
+  files:
+    - member-app.jar
